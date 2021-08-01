@@ -10,7 +10,7 @@ class Intermedio(Basico):
         print('La suma es igual a:', suma)
 
     def factorial(self, num=5):
-        print('Número factorial')
+        print('N factorial')
         facto = 1
         if numero != 0:
             for i in range(1, num+1):
@@ -36,7 +36,7 @@ class Intermedio(Basico):
                 n3 = num1
                 num1 = num2
                 num2 = n3
-            print('Números primos gemelos del', num1, 'al', num2)
+            print('N primos gemelos del', num1, 'al', num2)
             if num2 > 4:
                 for i in range(num1, num2+1):
                     incr = 2
