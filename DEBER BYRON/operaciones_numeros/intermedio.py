@@ -3,7 +3,7 @@ from .basico import Basico
 
 class Intermedio(Basico):
     def num_n(self, n=10):
-        print('Suma del número 1 al', n)
+        print('SumaS del  1 al', n)
         suma = 0
         for i in range(1, n+1):
             suma += i
