@@ -2,18 +2,18 @@ from .basico import Basico
 
 
 class Intermedio(Basico):
-    def numeros_n(self, n=10):
+    def num_n(self, n=10):
         print('Suma del número 1 al', n)
         suma = 0
         for i in range(1, n+1):
             suma += i
         print('La suma es igual a:', suma)
 
-    def factorial(self, numero=5):
+    def factorial(self, num=5):
         print('Número factorial')
         facto = 1
         if numero != 0:
-            for i in range(1, numero+1):
+            for i in range(1, num+1):
                 facto *= i
         print('El factorial es:', facto)
 
