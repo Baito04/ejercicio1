@@ -1,10 +1,10 @@
 from .calculadora import Calculadora
 
 
-class calCientifica(Calculadora):
+class calCienti(Calculadora):
     PI = 3.1416
 
-    def __init__(self, numero1=0, numero2=0):
+    def __init__(self, n1=0, n2=0):
         super().__init__()
     
     def circunferencia(self, radio):
